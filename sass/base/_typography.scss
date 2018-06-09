@@ -3,7 +3,7 @@ body {
     font-weight: 400;
     /*font-size: 16px;*/
     line-height: 1.7;
-    color: $color-gray-dark;
+    color: $color-grey-dark;
     padding: 3rem;
 }
 
@@ -59,7 +59,7 @@ body {
 .paragraph {
     font-size: $default-font-size;
     
-    &:not(:last-child) /*wszystko prócz ostatniego*/ {
+    &:not(:last-child) {
         margin-bottom: 3rem;
     }
 }
